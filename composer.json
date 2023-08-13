@@ -1,0 +1,15 @@
+{
+  "name": "prototype_project/prototype_project",
+  "type": "project",
+  "description": "A simple description",
+  "keywords": [],
+  "license":"",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\":"app//"
+    },
+    "files": ["app/helpers/helper.php"]
+  }
+}
